@@ -1,4 +1,42 @@
 baseURL = "http://eduardoalencar.website"
 languageCode = "en-us"
 title = "Eduardo Alencar de Oliveira"
-theme = "anubis"
+theme = "hugo-kiera"
+
+# Hugo kiera theme config
+
+pygmentsCodeFences = true
+
+disqusShortname = "eduardoalencar-website" #Disqus shortname
+googleAnalytics = "" #Google Analytics ID
+
+[author]
+    name = "Eduardo Alencar de Oliveira"           #Author name
+    github = "edueo"         #Github username
+    gitlab = "edueo"         #Gitlab username
+    linkedin = "eduardoaoliveiradev"       #LinkedIn username
+    #facebook = ""       #Facebook username
+    #twitter = ""        #Twitter username
+    #instagram = ""      #Instagram username
+    #stackoverflow = ""  #StackOverflow username
+
+[params]
+    tagline = "\"Escolha sua melhor rima, melhore, repita isso 1000 vezes.\" Eminem"
+    customCSS = []  #Optional Customised CSS
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "CV"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/cv/"
+    weight = -110
+
+  [[menu.main]]
+    name = "getting started"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/getting-started/"
+    weight = -100
+

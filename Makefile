@@ -1,0 +1,2 @@
+upserver:
+	hugo server -D
