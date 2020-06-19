@@ -1,7 +1,9 @@
 ---
-title: "Eduardo  Alencar de Oliveira"
+title: "CV"
 date: 2020-06-19
+menu: main
 meta: false
+weight: "5"
 draft: false
 ---
 

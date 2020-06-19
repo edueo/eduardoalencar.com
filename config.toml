@@ -1,7 +1,7 @@
 baseURL = "http://eduardoalencar.website"
 languageCode = "en-us"
 title = "Eduardo Alencar de Oliveira"
-theme = "hugo-kiera"
+theme = "anubis"
 
 # Hugo kiera theme config
 
@@ -26,17 +26,17 @@ googleAnalytics = "" #Google Analytics ID
 
 [menu]
 
-  [[menu.main]]
-    identifier = "about"
-    name = "CV"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/cv/"
-    weight = -110
-
-  [[menu.main]]
-    name = "getting started"
-    post = "<span class='alert'>New!</span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = "/getting-started/"
-    weight = -100
-
+  # [[menu.main]]
+  #   identifier = "about"
+  #   name = "CV"
+  #   pre = "<i class='fa fa-heart'></i>"
+  #   url = "/cv/"
+  #   weight = -110
+  #
+  # [[menu.main]]
+  #   name = "getting started"
+  #   post = "<span class='alert'>New!</span>"
+  #   pre = "<i class='fa fa-road'></i>"
+  #   url = "/getting-started/"
+  #   weight = -100
+  #
