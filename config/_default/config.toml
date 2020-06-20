@@ -1,0 +1,46 @@
+baseURL = "http://eduardoalencar.website"
+languageCode = "en-us"
+title = "Eduardo Alencar"
+theme = "soho"
+# pygmentsCodeFences = true
+enableInlineShortcodes = true
+
+summarylength = 10
+enableEmoji = true
+
+disqusShortname = "eduardoalencar-website" #Disqus shortname
+googleAnalytics = "UA-28810177-1" #Google Analytics ID
+
+
+[params]
+author = "Eduardo Alencar"
+description = "\"Escolha sua melhor rima, melhore, repita isso 1000 vezes\" (Eminem)"
+
+## Set one of:
+gravatar = "ealencar10@gmail.com"
+#profilePicture = "images/profile.png"
+
+copyright = "Eduardo Alencar"
+license = "CC BY-SA 4.0"
+licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+
+## Set custom theme color.
+#themeColor = "#fc2803"
+
+## Set custom CSS and/or JS to override site defaults.
+
+  ## Set as many as you want.
+  [[params.socialIcons]]
+  icon = "fa-linkedin"
+  title = "Linkedin"
+  url = "https://www.linkedin.com/in/eduardoaoliveiradev/"
+
+  [[params.socialIcons]]
+  icon = "fa-github"
+  title = "GitHub"
+  url = "https://github.com/edueo"
+
+  [[params.socialIcons]]
+  icon = "fa-twitter"
+  title = "Twitter"
+  url = "#"

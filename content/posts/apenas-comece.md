@@ -1,5 +1,6 @@
 +++
 title = "Apenas Comece"
+summary = "Tem uma idéia, um projeto, algo que queira fazer? Não espere pelo momento certo, apenas comece!"
 date = 2020-06-19T16:48:16-03:00
 images = []
 tags = ["tag1", "tag2"]
