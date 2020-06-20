@@ -10,11 +10,12 @@ enableEmoji = true
 
 disqusShortname = "eduardoalencar-website" #Disqus shortname
 googleAnalytics = "UA-28810177-1" #Google Analytics ID
-
+description = "site muito legal"
 
 [params]
 author = "Eduardo Alencar"
-description = "\"Escolha sua melhor rima, melhore, repita isso 1000 vezes\" (Eminem)"
+bio = "Desenvolvedor Web"
+description = "Desenvolvedor web com 13 anos de experiência. No backend já trabalhei com PHP, Python, NodeJS, Kotlin e Go, no froentend, além de HTML, CSS e Javascript atuei com ReactJS."
 
 ## Set one of:
 gravatar = "ealencar10@gmail.com"
