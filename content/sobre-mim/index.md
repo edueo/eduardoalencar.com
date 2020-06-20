@@ -7,6 +7,6 @@ meta = "false"
 +++
 
 + Casado, pai de um casal de filhos lindos
-+ Amante de futebol, xadrez, poker
-+ Aprendiz de padeiro na horas vagas
++ Amante de futebol, xadrez e poker
++ Aprendiz na arte de panificação
 
