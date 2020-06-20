@@ -1,0 +1,16 @@
+baseURL = "http://eduardoalencar.website"
+languageCode = "en-us"
+title = "Eduardo Alencar de Oliveira"
+theme = "anubis"
+
+pygmentsCodeFences = true
+
+disqusShortname = "eduardoalencar-website" #Disqus shortname
+googleAnalytics = "UA-28819177-1" #Google Analytics ID
+
+[author]
+
+[params]
+
+[menu]
+
