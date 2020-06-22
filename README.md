@@ -10,7 +10,7 @@ Hugo(https://gohugo.io/)
 1. Clonar esse repositório
 2. Executar o comando
 ```
-make upserver
+make dev
 ```
 
 ## Deploy
