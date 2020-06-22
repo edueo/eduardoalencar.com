@@ -1,4 +1,4 @@
-baseURL = "http://eduardoalencar.website"
+baseURL = "http://eduardoalencar.com"
 languageCode = "en-us"
 title = "Eduardo Alencar"
 theme = "soho"
@@ -10,7 +10,7 @@ enableEmoji = true
 
 disqusShortname = "eduardoalencar-website" #Disqus shortname
 googleAnalytics = "UA-28810177-1" #Google Analytics ID
-description = "site muito legal"
+description = "Um pouco de programação, fundamentos da ciência da computação, linguagens de programação, python, php, java, javascript, go e outros sabores. Filosofia, filmes, reflexões também aparecerão por aqui."
 
 [params]
 author = "Eduardo Alencar"
