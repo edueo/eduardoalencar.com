@@ -10,7 +10,7 @@ enableEmoji = true
 
 disqusShortname = "eduardoalencar-website" #Disqus shortname
 googleAnalytics = "UA-28810177-1" #Google Analytics ID
-description = "Um pouco de programação, fundamentos da ciência da computação, linguagens de programação, python, php, java, javascript, go e outros sabores. Filosofia, filmes, reflexões também aparecerão por aqui."
+description = "Desenvolvimento web backend e frontend. Linguagens de programação, PHP, Python, Java, Kotlin, Go, Javascript. Filosofia, reflexões e opiniões."
 
 [params]
 author = "Eduardo Alencar"
