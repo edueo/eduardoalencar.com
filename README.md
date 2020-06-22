@@ -3,9 +3,9 @@
 
 ## Requisitos
 
-    - [Hugo](https://gohugo.io/)  
+Hugo(https://gohugo.io/)  
 
-## Executar o site localmento
+## Executar o site localment
 
 1. Clonar esse repositório
 2. Executar o comando
