@@ -7,12 +7,9 @@ weight: "5"
 draft: false
 ---
 
-## Posição Atual
-
-__Engenheiro de software__
-
-## Contato
-ealencar10@gmail.com
+> Engenheiro de Software
+>
+> contato@eduardoalencar.com
 
 ## Formação
 
