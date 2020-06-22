@@ -1,4 +1,4 @@
 upserver:
 	hugo server -D
 deploy:
-	hugo && rsync -avz --delete public/ root@linode_1:/var/www/eduardoalencar.website/html
+	hugo && rsync -avz --delete public/ eduardoalencar.com:/var/www/eduardoalencar.com/html
