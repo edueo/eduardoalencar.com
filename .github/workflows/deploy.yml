@@ -6,9 +6,9 @@ jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps:
-      - name: echo string
-        run: echo "Eduaardo alencar"
-      - name: multiline script
-        run: |
-          node --version
-          npm -v
+      - name: Hugo build and send public folder to live server via rsync
+        run: make deploy
+#      - name: multiline script
+#        run: |
+#          node --version
+#          npm -v
