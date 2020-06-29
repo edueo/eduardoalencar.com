@@ -6,6 +6,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-go@v1
+        with:
+          go-version: '1.9.3' # The Go version to download (if necessary) and use.
       - name: Fetch hugo from github
         run: git clone https://github.com/gohugoio/hugo.git
       - name: Change directory to hugo
