@@ -3,11 +3,20 @@ name: Shell commands
 on: [push]
 
 jobs:
-  run-shell-command:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Hugo build and send public folder to live server via rsync
-        run: make deploy
+      - name: Fetch hugo from github
+        run: git clone https://github.com/gohugoio/hugo.git
+      - name: Change directory to hugo
+        run: cd hugo
+      - name: Install hugo
+        run: go install --tags extends
+#  run-shell-command:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Hugo build and send public folder to live server via rsync
+#        run: make deploy
 #      - name: multiline script
 #        run: |
 #          node --version
