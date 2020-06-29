@@ -1,0 +1,14 @@
+name: Shell commands
+
+on: [push]
+
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo string
+        run: echo "Eduaardo alencar"
+      - name: multiline script
+        run: |
+          node --version
+          npm -v
