@@ -48,7 +48,7 @@ server {
 ## Ativando o seu site:
 
 {{< highlight bash >}}
-ln -s /etc/nginx/sites-available/cabin /etc/nginx/sites-enabled /etc/nginx/sites-enabled/
+ln -s /etc/nginx/sites-available/meu-site /etc/nginx/sites-enabled /etc/nginx/sites-enabled/
 {{< / highlight >}}
 
 ## Site exemplo
