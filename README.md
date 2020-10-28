@@ -1,11 +1,12 @@
 #eduardoalencar.com
 
-
 ## Requisitos
 
-Hugo(https://gohugo.io/)  
+## Instalando Hugo
 
-## Executar o site localment
+**Via homebrew no macOS**: `brew install hugo`
+
+## Executar o site localmente
 
 1. Clonar esse repositório
 2. Executar o comando
