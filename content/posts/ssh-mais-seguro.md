@@ -3,7 +3,7 @@ categories:
 - ssh
 - servidores
 date: "2020-10-28"
-summary: "2 dias para deixar o acesso ssh mais seguro"
+summary: "2 dicas para deixar o acesso ssh mais seguro"
 description: Deixando o ssh mais seguro
 slug: 2-dicas-para-deixar-acesso-ssh-mais-seguro
 tags:
