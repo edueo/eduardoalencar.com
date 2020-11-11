@@ -14,8 +14,6 @@ tags:
 title: Google Cloud Functions
 ---
 
-# Google Cloud Functions
-
 - [Instalação gcloud, gsutil e bq](https://cloud.google.com/sdk/docs/install)
 
 ## Inicialização gcloud
