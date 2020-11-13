@@ -1,5 +1,3 @@
-#eduardoalencar.com
-
 ## Requisitos
 
 ## Instalando Hugo
