@@ -5,7 +5,7 @@ categories:
 date: "2020-11-11"
 summary: "Google Cloud Functions"
 description: Alias para incrementar produtividade no git
-slug: configuracao-git
+slug: apredizados-com-gcp
 tags:
 - gcloud
 - serverless
