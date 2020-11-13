@@ -4,7 +4,7 @@
 
 ## Instalando Hugo
 
-**Via homebrew no macOS**: `brew install hugo`
+**Via homebrew no macOS/Linux**: `brew install hugo`
 
 ## Executar o site localmente
 
