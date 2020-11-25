@@ -27,6 +27,10 @@ Adicione a seguinte linha em seu `.bash_profile`
 ```
 export PATH="$HOME/kotlinc/bin:$PATH" 
 ```
+**No Fish** ...
+```
+set PATH $PATH $HOME/kotlinc/bin/
+```
 
 4. Reinicie seu terminal ou execute `source ~/.bash_profile`
 
