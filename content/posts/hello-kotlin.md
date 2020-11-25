@@ -32,6 +32,8 @@ export PATH="$HOME/kotlinc/bin:$PATH"
 
 5. Teste a instalação: `kotlinc-jvm`
 
+6. `println("Hello Kotlin!!")`
+
 ## Links 
 - https://kotlinlang.org/docs/tutorials/command-line.html
 
