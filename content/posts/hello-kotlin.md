@@ -32,7 +32,7 @@ export PATH="$HOME/kotlinc/bin:$PATH"
 set PATH $PATH $HOME/kotlinc/bin/
 ```
 
-No MacOS, ainda existe a opção de adicionar no arquivo `/etc/paths`, onde 
+No MacOS, ainda existe a opção de adicionar no arquivo `/etc/paths` 
 
 
 4. Reinicie seu terminal ou execute `source ~/.bash_profile`
