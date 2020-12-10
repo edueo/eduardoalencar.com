@@ -16,7 +16,7 @@ title: Colinha
 
 ## Configuração do postgres no Django.
 
-```
+{{< highlight bash >}}
 # settings.py
 [...]
 DATABASES = {
@@ -29,5 +29,4 @@ DATABASES = {
       }
 }
 [...]
-```
-
+{{< / highlight >}}
