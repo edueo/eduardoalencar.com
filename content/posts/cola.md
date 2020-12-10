@@ -17,7 +17,7 @@ title: Colinha
 ## Django
 
 
-*Configuração Postgres*
+**Configuração Postgres**
 
 {{< highlight python >}}
 # settings.py
@@ -34,7 +34,7 @@ DATABASES = {
 [...]
 {{< / highlight >}}
 
-*Instalar pacote psycopg2 no MacOS Catalina*
+**Instalar pacote psycopg2 no MacOS Catalina**
 
 Se o padrão `pip install psycopg2` não funcionar, usar:
 
