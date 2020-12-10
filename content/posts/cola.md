@@ -14,9 +14,12 @@ tags:
 title: Colinha
 ---
 
-## Configuração do postgres no Django.
+## Django
 
-{{< highlight bash >}}
+
+*Configuração Postgres*
+
+{{< highlight python >}}
 # settings.py
 [...]
 DATABASES = {
@@ -30,3 +33,13 @@ DATABASES = {
 }
 [...]
 {{< / highlight >}}
+
+*Instalar pacote psycopg2 no MacOS Catalina*
+
+Se o padrão `pip install psycopg2` não funcionar, usar:
+
+{{< highlight bash >}}
+env LDFLAGS='-L/usr/local/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib' pip install psycopg2==2.8.6
+{{< / highlight >}}
+
+
