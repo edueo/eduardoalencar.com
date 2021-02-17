@@ -6,9 +6,6 @@ weight = "10"
 meta = "false"
 +++
 
-+ Casado, com uma mulher maravilhosa, resiliente, pois me aguenta todos os dias. 
-+ Pai de menino e pai de menina.
-+ Dono de um casal de pets bem peculiar (Um Bulldog inglês e uma Splitz alemã).
-+ Amante de futebol, xadrez e poker
-+ Torcedor do Santos Futebol Clube
-+ Aprendiz na arte de panificação
+Casado com [minha princesa](https://www.instagram.com/ariana08_aps/), pai do Júnior e da Manu. Torcer para o Santos FC, jogar xadrez, cozinhar, ler e escrever são meus hobbies e programar é meu ofício.
+
+
