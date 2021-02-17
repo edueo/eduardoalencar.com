@@ -6,6 +6,6 @@ weight = "10"
 meta = "false"
 +++
 
-Casado com [minha princesa](https://www.instagram.com/ariana08_aps/), pai do Júnior e da Manu. Torcer para o Santos FC, jogar xadrez, cozinhar, ler e escrever são meus hobbies e programar é meu ofício.
+Casado com [Ariana](https://www.instagram.com/ariana08_aps/) (minha princesa), pai do Júnior e da Manu. Torcer para o Santos FC, jogar xadrez, cozinhar, ler e escrever são meus hobbies e programar é meu ofício.
 
 
