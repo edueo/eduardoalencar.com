@@ -1,7 +1,7 @@
 baseURL = "http://eduardoalencar.com"
 languageCode = "en-us"
 title = "Eduardo Alencar"
-theme = "soho"
+theme = "papermod"
 # pygmentsCodeFences = true
 enableInlineShortcodes = true
 
@@ -16,7 +16,7 @@ description = "Desenvolvimento web backend e frontend. Linguagens de programaç�
 author = "Eduardo Alencar"
 bio = "Desenvolvedor Web"
 description = "Desenvolvedor web com 13 anos de experiência. No backend já trabalhei com PHP, Python, NodeJS, Kotlin e Go, no froentend, além de HTML, CSS e Javascript atuei com ReactJS."
-
+defaultTheme = "dark"
 ## Set one of:
 gravatar = "ealencar10@gmail.com"
 #profilePicture = "images/profile.png"

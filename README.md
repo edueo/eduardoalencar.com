@@ -1,8 +1,21 @@
 ## Requisitos
 
-## Instalando Hugo
+## Instalação Hugo
 
-**Via homebrew no macOS/Linux**: `brew install hugo`
+![Hugo](hugo.jpg)
+
+### MacOS
+
+`brew install hugo`
+
+### Linux
+
+1. Acessar https://github.com/gohugoio/hugo/releases
+2. Fazer download da úlima release para `Linux-64bit.tar.gz`
+3. Descompactar
+4. `sudo mv hugo /usr/local/bin`
+
+Para testar a instalação, basta digitar `hugo` na raiz do projeto
 
 ## Executar o site localmente
 
