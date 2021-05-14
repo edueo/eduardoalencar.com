@@ -1,8 +1,8 @@
 ## Requisitos
 
-## Instalação Hugo
-
 ![Hugo](hugo.jpg)
+
+## Instalação Hugo
 
 ### MacOS
 
