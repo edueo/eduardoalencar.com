@@ -1,47 +1,54 @@
 baseURL = "http://eduardoalencar.com/"
+googleAnalytics = "UA-28810177-1" #Google Analytics ID
+
+
 languageCode = "pt-BR"
 title = "Eduardo Alencar"
-theme = "tania"
-# pygmentsCodeFences = true
-enableInlineShortcodes = true
-
-summarylength = 10
-enableEmoji = true
-
-disqusShortname = "https-eduardoalencar-com" #Disqus shortname
-googleAnalytics = "UA-28810177-1" #Google Analytics ID
-description = "Desenvolvimento web backend e frontend. Linguagens de programação, PHP, Python, Java, Kotlin, Go, Javascript. Filosofia, reflexões e opiniões."
+theme = "pickles"
 
 [params]
-author = "Eduardo Alencar"
-bio = "Desenvolvedor Web"
-description = "Desenvolvedor web com 13 anos de experiência. No backend já trabalhei com PHP, Python, NodeJS, Kotlin e Go, no froentend, além de HTML, CSS e Javascript atuei com ReactJS."
-defaultTheme = "dark"
-## Set one of:
-gravatar = "ealencar10@gmail.com"
-#profilePicture = "images/profile.png"
+  paginate = 10
+  custom_css = ["/css/custom.css"]
+  # Social accounts. Link to these accounts are displayed in the header and
+  # footer
+  github = "edueo"
+  gitlab = "edueo"
+  linkedin = "eduardoalencardotcom"
+  # Disqus shortname
+  disqus = "https-eduardoalencar-com"
+  author = "Eduardo Alencar"
+  contact = "mailto:ealencar10@gmail.com"
+  bio = "Marido, pai, torcedor do Santos FC, jogador de xadrez e programador"
+  # Short subtitle/tagline. This is displayed in the header.
+  subtitle = ""
 
-copyright = "Eduardo Alencar"
-license = "CC BY-SA 4.0"
-licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 4
 
-## Set custom theme color.
-#themeColor = "#fc2803"
+[related]
+  # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+  threshold = 80
 
-## Set custom CSS and/or JS to override site defaults.
+  # To get stable "See also" sections we, by default, exclude newer related pages.
+  includeNewer = false
 
-  ## Set as many as you want.
-  [[params.socialIcons]]
-  icon = "fa-linkedin"
-  title = "Linkedin"
-  url = "https://www.linkedin.com/in/eduardoalencardotcom"
+  # Will lower case keywords in both queries and in the indexes.
+  toLower = false
 
-  [[params.socialIcons]]
-  icon = "fa-github"
-  title = "GitHub"
-  url = "https://github.com/edueo"
-  #
-  # [[params.socialIcons]]
-  # icon = "fa-twitter"
-  # title = "Email"
-  # url = "#"
+  [[related.indices]]
+  name = "keywords"
+  weight = 150
+  [[related.indices]]
+  name  = "author"
+  toLower = true
+  weight = 30
+  [[related.indices]]
+  name  = "tags"
+  weight = 100
+  [[related.indices]]
+  name  = "date"
+  weight = 10
+  pattern = "2017"
+
