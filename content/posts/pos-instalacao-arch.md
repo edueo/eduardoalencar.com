@@ -78,7 +78,7 @@ o seu usuário no grupo do docker.
 sudo usermod -aG docker $USER
 ```
 
-__Para que essa mudança surta efeito é preciso efetuar log out__ 
+*Para que essa mudança surta efeito é preciso efetuar log out* 
 
 Para testar o funcionamento, abra o terminal e digite:
 
@@ -110,10 +110,88 @@ For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
 
+### ASDF
+
+Na era dos (micros)serviços, é comum que um desenvolvedor atue em diferentes stacks de tecnologias. O [asdf](https://github.com/asdf-vm/asdf) é uma CLI (Command Line Interface) que permite
+gerenciar multiplas linguagens em versões distintas.
+
+**Para instalar**:
+
+```
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.1
+
+```
+
+Adicionar as linhas abaixo no arquivo de configuração do seu shell, no meu caso, como uso `bash`, adicionei no `.bashrc`
+
+```
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+``` 
+
+Após reiniciar o bash, já é possível usar a ferramenta.
+
+Uma das características do asdf é ser extensível através de plugins, para listar todos os plugins disponíveis, execute:
+
+```
+asdf plugin list all
+```
+
+Vamos supor que precisamos instalar o `node` na versão `10.16.2`:
+
+1. Precisamos saber qual o nome do plugin do node, para isso:
+
+```
+asdf plugin list all | grep node
+```
+
+2. Agora que sabemos o nome do plugin do node, podemos adicioná-lo ao asdf:
+
+```
+asdf plugin add nodejs
+```
+
+3. Para verificar se o plugin foi adicionado ao asdf, digitamos:
+```
+asdf plugin list
+```
+
+4. Com o plugin do node adicionado é possível verificar as versões disponíveis:
+
+```
+asdf list all nodejs
+```
+
+5. Para filtrar somente as versões `10.16` disponíveis, podemos usar o `grep`:
+
+```
+asdf list all nodejs | grep 10.16.*
+```
+
+6. Para instalar a versão escolhida, usamos:
+```
+asdf install nodejs 10.16.2
+```
+
+7. Podemos verificar as versões do node instaladas com o comando:
+
+```
+asdf list nodejs
+```
+
+8. Para usar a versão `10.16.2` globalmente, execute:
+
+```
+asdf global nodejs 10.16.2
+```
+
+9. Verifique a versão do node:
+```
+node --version # v10.16.2
+```
 
 ### Zoom
 
-### ASDF
 
 ## Configurações
 
