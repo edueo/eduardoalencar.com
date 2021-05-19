@@ -1,14 +1,14 @@
 baseURL = "http://eduardoalencar.com"
-languageCode = "en-us"
+languageCode = "pt-BR"
 title = "Eduardo Alencar"
-theme = "papermod"
+theme = "simpleness"
 # pygmentsCodeFences = true
 enableInlineShortcodes = true
 
 summarylength = 10
 enableEmoji = true
 
-disqusShortname = "eduardoalencar-website" #Disqus shortname
+disqusShortname = "https-eduardoalencar-com" #Disqus shortname
 googleAnalytics = "UA-28810177-1" #Google Analytics ID
 description = "Desenvolvimento web backend e frontend. Linguagens de programação, PHP, Python, Java, Kotlin, Go, Javascript. Filosofia, reflexões e opiniões."
 
