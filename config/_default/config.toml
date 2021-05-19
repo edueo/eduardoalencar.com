@@ -1,7 +1,7 @@
 baseURL = "http://eduardoalencar.com/"
 languageCode = "pt-BR"
 title = "Eduardo Alencar"
-theme = "simpleness"
+theme = "tania"
 # pygmentsCodeFences = true
 enableInlineShortcodes = true
 
