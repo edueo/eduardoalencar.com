@@ -34,18 +34,18 @@ terraform version
 
 ### E agora por onde começo ?
 
-#### Fazendo meu editor entender a linguagem do Terraform
+#### HCL no Visual Studio Code (Opcional)
 
-O Terraform usa uma linguagem específica (DSL) chamada hcl. Para o usuários do Visual Studio Code, 
-aconselho instalar a extensão oficial: [HashiCorp Terraform](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform)
+O Terraform possui uma linguagem específica (DSL) chamada [HCL](https://github.com/hashicorp/hcl). O Visual Studio Code tem uma [extensão oficial](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform) que adiciona o `syntax highlighting` para o HCL.
 
 #### Configurar seu provedor
 
-O Terraform precisa saber qual o provedor (`Provider`) você deseja gerenciar, [aqui](https://registry.terraform.io/browse/providers) tem a lista dos provedores suportados.
-Vou explicar como fazer o setup do provider da AWS.
+Provedor é onde o Terraform irá gerenciar sua infra, alguns exemplos: AWS, GCP, Azure e IBM Cloud,[aqui](https://registry.terraform.io/browse/providers) tem a lista dos provedores suportados.
+
+##### Setup Provedor AWS
 
 1. Instalar [aws-cli](https://aws.amazon.com/pt/cli/)
-2. Executar `aws configure` (Aqui você precisa informar o `aws_access_key_id` e `aws_secret_access_key` da conta que deseja gerenciar) 
+2. Executar `aws configure` (Aqui será preciso informar o `aws_access_key_id` e `aws_secret_access_key` da conta que deseja gerenciar) 
 3. Criar um arquivo `qualquercoisa.tf` e adicionar o conteúdo:
 
 ```
@@ -75,14 +75,14 @@ resource "aws_vpc" "vpc_iaclab" {
 `shared_credentials_file`: colocar o caminho das suas credenciais, por padrão é `$HOME/.aws/credentials`
 `profile`: substituir pelo profile correto.
 
-4. Iniciar o projeto com `terraform init`
+4. `terraform init`
 
-### Criando recursos
+#### Criando recursos
 
-Para testar, podemos criar um recurso na AWS a nível de exemplo, para isso, vamos criar um bucket no S3. Para isso, 
-adicione as linhas em seu `qualquercoisa.tf`:
+Para testar a configuração do Provider, vamos criar um bucket no S3. 
 
-```
+- Adicionar as linhas em seu arquivo `qualquercoisa.tf`
+``` 
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket
 resource "aws_s3_bucket" "b" {
   bucket = "meu-bucket-criado-com-tf"
@@ -95,12 +95,16 @@ resource "aws_s3_bucket" "b" {
 }
 
 ```
-
-- Executar `terraform fmt` para corrigir quaisquer problemas de formatação em seus arquivos `.tf`
+- Executar `terraform fmt`
 - Verificar o que será alterado em sua infra, isso é feito com o comando: `terraform plan`
 - Por fim é preciso aplicar as alterações com o comando: `terraform apply`
 
 Para confirmar a criação do bucket, você pode acessar o console da AWS (alias agora ele só deve ter essa função: consultar recursos)
 
+#### Resumo dos principais comandos
 
+`terraform init`: Cria arquivos iniciais, faz o download de módulos;  
+`terraform fmt`: Corrige a formatação de arquivos `.tf`  
+`terraform plan`: Mostra as mudanças que serão realizadas em sua infra;  
+`terraform apply`: Aplica as mudanças em sua infra;
 
