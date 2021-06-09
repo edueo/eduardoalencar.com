@@ -1,0 +1,10 @@
+language: bash
+
+services:
+- docker
+
+script:
+- docker run --rm -i \
+    -v $(pwd):/src \
+    klakegg/hugo:0.83.1
+
