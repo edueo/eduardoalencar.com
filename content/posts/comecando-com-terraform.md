@@ -15,7 +15,7 @@ tags:
 - azure
 - ibm
 
-title: Começando com Terraform
+title: Começando com Terraform 
 ---
  
 ## O que é ?
@@ -24,7 +24,7 @@ title: Começando com Terraform
 
 ## Instalação
 
-O processo de instalação do Terraform está muito bem documentado [aqui](https://learn.hashicorp.com/tutorials/terraform/install-cli) 
+O processo de instalação do Terraform está documentado [aqui](https://learn.hashicorp.com/tutorials/terraform/install-cli) 
 
 Para verificar se a instalação foi realizada com sucesso, podemos usar o comando:
 
