@@ -1,4 +1,8 @@
-## Executar o site localmente
+# eduardoalencar.com
+
+Código fonte do meu site pessoal: https://eduardoalencar.com
+
+[![Build Status](https://travis-ci.com/edueo/eduardoalencar.com.svg?branch=master)](https://travis-ci.com/edueo/eduardoalencar.com)
 
 1. Clonar esse repositório
 ```
