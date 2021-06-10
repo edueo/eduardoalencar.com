@@ -15,7 +15,7 @@ theme = "pickles"
   gitlab = "edueo"
   linkedin = "edueo"
   # Disqus shortname
-  disqus = "https-eduardoalencar-com"
+  disqus = ""
   author = "Eduardo Alencar"
   contact = "mailto:ealencar10@gmail.com"
   bio = "Marido, pai, torcedor do Santos FC, jogador de xadrez e programador"
