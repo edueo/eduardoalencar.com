@@ -3,6 +3,7 @@ categories:
 - setup
 - workflowdate: "2021-05-18"
 date: "2021-06-11"
+summary: "Saiba como instalar o Virtualbox no Arch Linux"
 description: "Instalação do Virtualbox no Arch"
 slug: instalar-virtualbox-arch
 tags:
@@ -21,7 +22,7 @@ sudo pacman -S virtualbox virtualbox-host-modules-arch
 
 Ao iniciar uma VM, caso ocorra o erro `kernel driver not installed (rc=-1908)` é preciso fazer o seguinte:
 
-1. Precisamos identificar a versão do sistema, para isso:
+Antes de prosseguir é preciso saber qual a versão do sistema, para isso:
 {{< highlight bash >}}
 uname -r
 {{< / highlight >}}
