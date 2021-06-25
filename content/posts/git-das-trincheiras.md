@@ -9,7 +9,7 @@ slug: git-das-trincheiras
 tags:
 - git
 
-title: git-das-trincheiras
+title: Git das trincheiras
 ---
 
 - Criar uma tag
